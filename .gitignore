@@ -1,0 +1,5 @@
+providers.tf
+testing
+*.tfstate*
+.terraform
+.log
