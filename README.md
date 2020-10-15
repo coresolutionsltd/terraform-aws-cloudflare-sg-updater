@@ -11,10 +11,10 @@ A Terraform module to automatically update Security Group ingress rules with the
 
 The lambda function uses tags to identify security groups it needs to update, below is a list of the tags available:
 
-| key           | Description                                                               | value       | Default | Required |
-| ------------- | ------------------------------------------------------------------------- | ------------| --------| -------- |
-| CF-AutoUpdate | If true the Security group will be updated.                               | true        | None    | yes      |
-| CF-Ports      | Comma seperated list of ports to use for ingress traffic from Cloudflare. | `80,443...` | `443`   | no       |
+| key           | Description                                 | value       | Default | Required |
+| ------------- | ------------------------------------------- | ------------| --------| -------- |
+| CF-AutoUpdate | If true the Security group will be updated. | true        | None    | yes      |
+| CF-Ports      | Comma seperated list of ports to use.       | `80,443...` | `443`   | no       |
 
 ## Getting Started
 
